@@ -1,20 +1,45 @@
 .input:focus {
+
+    border-radius: 5px;
 }
 
 .input {
+    height: 36px;
+    width: 372px;
+    border-radius: 5px;
+
 }
 
 .inputWrapper {
+    margin-bottom: 30px;
+
 }
 
 .superInput {
+
+
 }
 
 .errorInput {
+    border-radius: 5px;
+    border-color: red;
+
 }
 
+
 .errorInput:focus {
+border-color: red;
 }
 
 .error {
+    display: flex;
+    margin-top: -45px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 0px;
+
+    color: red;
 }
+

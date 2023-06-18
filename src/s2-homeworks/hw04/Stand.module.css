@@ -2,6 +2,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 1280px;
+    height: 372px;
+    left: 0px;
+    top: 131px;
 }
 
 .inputs {
@@ -21,3 +25,4 @@
     flex-direction: column;
     gap: 36px;
 }
+
