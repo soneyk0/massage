@@ -18,8 +18,8 @@ export const Layout: FC<PropsType> = ({ children }) => {
 
     return (
         <>
-            <Sidebar open={open} handleClose={handleClose} />
             <Header handleOpen={handleOpen} />
+            {open && <Sidebar open={open} handleClose={handleClose}/>}
             <div>
                 {/*страницы*/}
                 {children}

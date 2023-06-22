@@ -1,25 +1,84 @@
 .sidebar {
+
+
 }
 
 .sidebar.open {
+    width: 317px;
+    height: 100vh;
+    color: slategrey;
+    position: absolute;
+    left: 0;
+    top:0;
+    background-color: white;
+    z-index: 10;
+    box-shadow: 10px 5px 5px slategrey;
 }
 
 .background {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.19);
+    position: absolute;
+    z-index: 9;
 }
 
 .nav {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding:  0 50px;
 }
 
 .nav a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+
 }
 
 .nav a:hover {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #58ACFF;
+
 }
 
 .nav a.active {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0059B2;
+    text-decoration: underline;
+;
+
 }
 .close {
+    width: 24px;
+    height: 24px;
+    background-color: #FFFFFF;
+    border: none;
+    margin-left: 270px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+
 }
 
 .close img {
+
+
 }
