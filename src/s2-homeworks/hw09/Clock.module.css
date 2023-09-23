@@ -1,4 +1,12 @@
 .buttonsContainer {
+    display: flex;
+    width: 84px;
+    height: 30px;
+    top: 1476px;
+    left: 70px;
+    padding: 5px 24px 5px 24px;
+    border-radius: 3px;
+    gap: 10px;
 }
 
 .clock {
@@ -11,4 +19,23 @@
 }
 
 .more {
+}
+
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    background: #0066CC;
+
+}
+
+.buttonsContainer.isActive {
+    display: flex;
+    width: 84px;
+    height: 30px;
+    top: 1476px;
+    left: 70px;
+    padding: 5px 24px 5px 24px;
+    border-radius: 3px;
+    gap: 10px;
+    background: green;
 }

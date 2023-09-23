@@ -20,6 +20,7 @@ export const Layout: FC<PropsType> = ({ children }) => {
         <>
             <Header handleOpen={handleOpen} />
             {open && <Sidebar open={open} handleClose={handleClose}/>}
+            {/*если след домашки не пройдут то удрать open*/}
             <div>
                 {/*страницы*/}
                 {children}

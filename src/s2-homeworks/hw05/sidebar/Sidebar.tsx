@@ -15,7 +15,7 @@ export const Sidebar: FC<PropsType> = ({open, handleClose}) => {
     return (
         <>
             {/*затемнение справа от открытого меню*/}
-            <div className={s.background} onClick={handleClose}/>
+            {open && <div className={s.background} onClick={handleClose}/>}
 
             <aside className={sidebarClass}>
                 <button className={s.close} onClick={handleClose}>

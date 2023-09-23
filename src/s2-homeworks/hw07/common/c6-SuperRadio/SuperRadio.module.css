@@ -1,15 +1,16 @@
-.radio {
+.label{
+    display: block;
+    user-select: none;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    margin-left: 250px;
+    margin-top: -17px;
+    padding-bottom: 35px;
+
 }
 
-.radio::before {
-}
 
 
-.radio:checked::before {
-}
-
-.label {
-}
-
-.options {
-}
